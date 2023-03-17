@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-container {
+height: 100%;
+width: 100%;
+display: flex;
+gap: 1rem
+}
+
+.card {
+  border: 3px solid black;
+  cursor: pointer;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  transition: border-color 4s;
+  
+}
+
+.card:hover {
+  border-color: violet;
+}
+
+.card.active {
+  border-color: darkviolet;
+}
